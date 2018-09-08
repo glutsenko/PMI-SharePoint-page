@@ -6,41 +6,28 @@
 </head>
 <body>
     <style>
+   * p {
+       margin: 0;
+        padding: 0;
+    } 
+    .fm-home-btn {
+    border-right: 1px solid;
+    }
 	.fm-main-container {
-	    max-width: 1170px;
+	    max-width: 1000px;
 	    margin: 0 auto;
 	}
 	.fm-header {
-	    background-color: #0070dc;
+	    background: linear-gradient(90deg, #0071dc, #6bd5ad);;
 	    color: #fff;
 	    display: flex;
 	    align-items: center;
-	    padding: 20px 10px;
         border-radius: 7px;
 	}
-	a.fm-evaluation-btn {
-	    background-color: #6cd6ac;
-	    border-radius: 4px;
-	    padding: 7px 17px;
-	    color: #fff;
-	    text-decoration: none;
-	    font-size: 21px;
-	    margin: 0 10px;
-	}
-	a.fm-sp-rep-btn {
-	    border: 2px solid #6cd6ac;
-	    border-radius: 4px;
-	    padding: 5px 17px;
-	    color: #fff;
-	    text-decoration: none;
-	    font-size: 25px;
-	    font-family: arial;
-	}
+
 	p.fm-header-title {
-	    text-transform: uppercase;
 	    font-weight: bolder;
 	    font-size: 35px;
-	    padding: 0 20px;
 	}
 	.fm-content-place {
 	    padding: 15px;
@@ -95,10 +82,12 @@ a.fm-btn-link {
 <div class="fm-main-container">
 	<!--Шапка-->
 	<div class="fm-header">
-		<div class="fm-home-btn"><a href="/collab/HRTS1/HSJEW/Pages/default.aspx"><img src="http://oneplace.pmiapps.biz/collab/HRTS1/HSJEW/PublishingImages/Home1.png" alt=""></a></div>
+		<div class="fm-home-btn"><a href="#"><img src="pic/home.png" alt="home"></a></div>
 		<p class="fm-header-title">Job evaluation workspace</p>
-		<a class="fm-sp-rep-btn" href="/collab/HRTS1/HSJEW/Materials/All%20markets_grading_SP07.xlsm"><b>SP07 report</b></a>
-		<a class="fm-evaluation-btn" href="/collab/HRTS1/HSJEW/Lists/Job%20Evaluation%20Results/Item/newifs.aspx?List=248eee31%2D03ae%2D4ad1%2Da9a2%2Daa37ca982075&amp;Source=http%3A%2F%2Foneplace%2Epmiapps%2Ebiz%2Fcollab%2FHRTS1%2FHSJEW%2FLists%2FJob%2520Evaluation%2520Results%2FDefault%2Easpx&amp;RootFolder=&amp;Web=e6629eaf%2Dccd2%2D4301%2Dac68%2D0fd4e33195bb"><b>Add new ealuation</b></a>
+		<a class="fm-sp-rep-btn" href="#"><img src="pic/sp07.png" alt=""><b>SP07 REPORT</b></a>
+		<a class="fm-evaluation-btn" href="#"><img src="pic/dashboard.png" alt=""><b>DASHBOARD</b></a>
+		<a class="fm-search-btn" href="#"><img src="pic/search-by-country.png" alt=""><b>SEARCH</b></a>
+		<a class="fm-evaluation-btn" href="#"><img src="pic/pen.png" alt=""><b>ADD NEW</b></a>
 	</div>
 	<!--Основное поле с кнопками-->
 	<div class="fm-content-place">
